@@ -8,6 +8,7 @@
 {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 header .container
@@ -17,7 +18,8 @@ header .container
   height: 5vw;
   width: 100%;
   align-items: center;
-  background-color: azure;
+  background-color: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 header .container nav ul li
@@ -27,14 +29,19 @@ header .container nav ul li
   font-weight: 500;
 }
 
+header .container nav ul li a
+{
+  color: white;
+}
+
 header .container .logo
 {
-  margin-left: 10%;
+  margin-left: 7%;
 }
 
 header .container nav
 {
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 main
@@ -45,4 +52,66 @@ main
 main .contenu-slide1
 {
   margin-top: 3vw;
+}
+
+
+.body
+{
+  background-color: rgb(13, 70, 128);
+}
+
+
+/* contenu */
+
+.text1 {
+  margin: 0;
+  padding: 0;
+  width: 45%;
+  margin-left: 5%;
+}
+
+.description {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-top: 5vw;
+}
+
+.description h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2vw;
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.description p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.btn-2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-2 button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: azure;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  border-radius: 20px;
+}
+
+.btn-2 button:hover
+{
+  background-color: rgb(24, 24, 63);
+  color: white;
+  transition: .5s;
 }

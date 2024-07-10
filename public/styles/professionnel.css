@@ -1,0 +1,41 @@
+
+.professionnel .container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0vw;
+    background-color: rgb(13, 70, 128);
+}
+
+.professionnel .container .projet ,.experience ,.partenaire
+{
+    width: 30%;
+    color: white;
+    height: 40vh;
+    margin-left: 1%;
+}
+
+.professionnel .container .projet .nbre,.experience .nbre ,.partenaire .nbre
+{
+    background-color: rgb(6, 10, 68);
+    color: white;
+    border-radius: 50%;
+    width: 20%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3vw;
+    border: 5px solid rgb(182, 180, 180);
+}
+
+.professionnel .container .projet h1,.experience h1 ,.partenaire h1
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.professionnel .container .projet p,.experience p ,.partenaire p
+{
+    text-align: start;
+}

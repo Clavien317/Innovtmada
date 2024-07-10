@@ -1,15 +1,22 @@
+import Apropos from '@/components/Apropos'
+import Contenu from '@/components/Contenu'
 import NavBar from '@/components/NavBar'
-import Slide1 from '@/components/Slide1'
+import Professionnel from '@/components/Professionnel'
 import React from 'react'
 
 function page() {
   return (
-    <div>
+      <>
+        <div className='body'>
         <main>
           <NavBar />
-          <Slide1 />
+          <Contenu />
         </main>
-    </div>
+        </div>
+        <Apropos />
+
+        <Professionnel />
+      </>
   )
 }
 

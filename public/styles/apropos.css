@@ -1,0 +1,62 @@
+
+
+.section1
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1 .image
+{
+  width: 50%;
+  height: 60vh;
+}
+
+.section1 .image img
+{
+    height: 88vh;
+}
+
+.section1 .descri
+{
+    width: 50%;
+    margin-top: 8vh;
+    height: 80vh;
+}
+
+.section1 .descri *
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.section1 .descri h1
+{
+    font-size: 35px;
+    color: rgb(39, 38, 38);
+    font-weight: 600;
+}
+
+.section1 .descri span
+{
+    color: rgb(19, 19, 233);
+    margin-bottom: 10vw;
+    font-weight: 400;
+}
+
+.section1 .descri button
+{
+    background-color: rgb(13, 70, 128);
+    width: 30%;
+    height: 3vw;
+    margin-top: 3vw;
+    border-radius: 20px;
+    color: white;
+}
+
+.section1 .descri button:hover
+{
+    background-color: rgb(24, 24, 63);
+    color: white;
+    transition: .5s;
+}
