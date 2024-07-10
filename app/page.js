@@ -2,6 +2,7 @@ import Apropos from '@/components/Apropos'
 import Contenu from '@/components/Contenu'
 import NavBar from '@/components/NavBar'
 import Professionnel from '@/components/Professionnel'
+import Service from '@/components/Service'
 import React from 'react'
 
 function page() {
@@ -16,6 +17,8 @@ function page() {
         <Apropos />
 
         <Professionnel />
+
+        <Service />
       </>
   )
 }

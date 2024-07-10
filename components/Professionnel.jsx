@@ -46,19 +46,29 @@ function Professionnel() {
 
         <div className="talent">
             <div className="txt">
-            <h1>Partenaire</h1>
+            <h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Error numquam labore eligendi voluptatem hic exercitationem? Excepturi quod doloremque obcaecati,
+                voluptates, libero soluta corrupti repellat blanditiis atque fugiat nemo, quibusdam rem?
+            </h1>
             <br />
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nisi
                 amet tempore natus accusamus porro ratione praesentium aut
                 omnis veritatis et recusandae,exercitationem nesciunt rerum minus repellendus at ab. Similique.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nisi
+                amet tempore natus accusamus porro ratione praesentium aut
+                omnis veritatis et recusandae,exercitationem nesciunt rerum minus repellendus at ab. Similique.
             </p> 
-            </div>
 
+            <button>Ceci est un bouton</button>
+            </div>
             <div className="image">
                 <img src="/Full-Stack-Developer-1.webp" alt="" />
             </div>
         </div>
+
+    
     </>
   )
 }
