@@ -23,7 +23,7 @@ function Offres() {
 
                         <div className="postule">
                             <button className='candidature'>Postuler</button>
-                            <button>Detail offre</button>
+                            <button className='detail'>Detail offre</button>
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@ function Offres() {
 
                         <div className="postule">
                             <button className='candidature'>Postuler</button>
-                            <button>Detail offre</button>
+                            <button className='detail'>Detail offre</button>
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ function Offres() {
 
                         <div className="postule">
                             <button className='candidature'>Postuler</button>
-                            <button>Detail offre</button>
+                            <button className='detail'>Detail offre</button>
                         </div>
                     </div>
                 </div>

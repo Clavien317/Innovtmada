@@ -67,7 +67,7 @@
     align-items: center;
     width: 80%;
     padding: 10px;
-    background-color: transparent; /* optionnel, pour la lisibilité */
+    background-color: transparent;
     margin-top: 2vw;
 }
 
@@ -78,4 +78,25 @@
     color: white;
     border-radius: 10px;
     width: 30%;
+}
+
+.offre .container .profil .section .postule .candidature:hover
+{
+    background-color: rgb(207, 204, 204);
+    color: black;
+    transition: 0.5s;
+}
+
+.offre .container .profil .section .postule .detail
+{
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.equipe ul li img
+{
+    width: 20%;
+    margin-left: 110%;
 }
