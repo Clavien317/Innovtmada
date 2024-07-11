@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 0vw;
-    background-color: rgb(13, 70, 128);
+    background-color: rgb(12, 23, 34);
     height: 60vh;
 }
 
@@ -96,7 +96,7 @@
     text-align: center;
     width: 90%;
     margin-left: 5%;
-    background-color: white;
+    background-color: rgb(12, 23, 34);
     padding: 1vw;
     border-radius: 10px;
     margin-top: 5vw;

@@ -17,6 +17,7 @@
 .c1
 {
   display: flex;
+  background-color: rgb(12, 23, 34);
 }
 
 header .container
@@ -65,7 +66,7 @@ main .contenu-slide1
 
 .body
 {
-  background-color: rgb(13, 70, 128);
+  background-color: rgb(15, 19, 33);
 }
 
 

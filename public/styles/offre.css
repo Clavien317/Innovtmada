@@ -4,7 +4,7 @@
 {
     width: 90%;
     margin-left: 5%;
-    background-color: rgb(33, 78, 202);
+    background-color: rgb(10, 13, 28);
     margin-top: 3vw;
     border-radius: 10px;
     margin-bottom: 2vw;
@@ -45,11 +45,13 @@
 .offre .container .profil .section {
     width: 30%;
     margin: 1%;
-    background-color: white;
+    background-color: rgb(11, 23, 49);
     padding: 1vw;
     border-radius: 10px;
     position: relative;
     height: 25vh;
+    margin-bottom: 4vw;
+    color: rgb(255, 255, 255);
 }
 
 .offre .container .profil .section h1
@@ -74,7 +76,7 @@
 .offre .container .profil .section .postule .candidature
 {
     padding: 5px;
-    background-color: rgb(4, 37, 75);
+    background-color: rgb(13, 27, 43);
     color: white;
     border-radius: 10px;
     width: 30%;

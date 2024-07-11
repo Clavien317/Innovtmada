@@ -1,0 +1,35 @@
+
+
+.equipe
+{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.equipe h1
+{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-align: start;
+    margin-left: 5%;
+}
+
+.equipe .card
+{
+    display: inline-block;
+    margin: 2vw;
+}
+
+.equipe .card img
+{
+    width: 100%;
+    height: 20vh;
+}
+
+
+.equipe .card .card-body .card-title
+{
+    margin-left: 10%;
+}

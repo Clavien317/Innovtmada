@@ -1,8 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import "@/public/styles/apropos.css"
-import "@/public/styles/professionnel.css"
-import "@/public/styles/offre.css"
+import "../public/styles/apropos.css"
+import "../public/styles/professionnel.css"
+import "../public/styles/offre.css"
+import "../public/styles/equipe.css"
 
 
 const inter = Inter({ subsets: ["latin"] });
