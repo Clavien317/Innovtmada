@@ -71,7 +71,7 @@
 {
     width: 30%;
     height: 3vw;
-    background-color: blue;
+    background-color: rgb(30, 57, 113);
     color: white;
     border-radius: 20px;
     margin-top: 2vw;
@@ -87,6 +87,9 @@
     height: 60vh;
     width: 100%;
 }
+
+
+/* services */
 
 .service
 {
@@ -107,7 +110,7 @@
 
 .service .p
 {
-    color: blue;
+    color: rgb(32, 60, 105);
 }
 
 .service .develop
@@ -117,17 +120,17 @@
     padding: 10px;
     text-align: center;
     display: inline-block;
-    margin: 10px;
+    margin: 1.5%;
     margin-top: 5vw;
     border-radius: 10px;
+    height: 45vh;
 }
 
 .service .develop:hover
 {
-    background-color: rgb(20, 84, 162);
+    background-color: rgb(36, 67, 105);
     color: white;
 }
-
 
 .service .develop h1
 {

@@ -19,7 +19,7 @@ function Professionnel() {
                 </div>
 
                 <div className="projet">
-                    <div className='nbre'>+ 20 ans</div>
+                    <div className='nbre'>+ 3 ans</div>
                     <br />
                     <h1>Experience</h1>
                     <br />

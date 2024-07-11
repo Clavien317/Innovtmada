@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contenu() {
   return (
-    <>
+    <div className='c1'>
         <div className="text1">
             <div className="description">
                 <h2>
@@ -25,7 +25,11 @@ function Contenu() {
                 <button>Ceci est un bouton</button>
             </div>
         </div>
-    </>
+
+        <div className="images">
+            <img src="/Gérer-le-personnel.png" alt="" />
+        </div>
+    </div>
   )
 }
 

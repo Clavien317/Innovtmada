@@ -3,12 +3,20 @@
 @tailwind utilities;
 
 
-
 *
 {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.c1
+{
+  display: flex;
 }
 
 header .container

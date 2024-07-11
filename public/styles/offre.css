@@ -1,0 +1,81 @@
+
+
+.offre
+{
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(33, 78, 202);
+    margin-top: 3vw;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+}
+
+.offre .container
+{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.offre .container .txt
+{
+    width: 50%;
+    margin-top: 3vw;
+}
+
+.offre .container .txt h1
+{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 2vw;
+    color: white;
+}
+
+.offre .container .txt .p2
+{
+    color: rgb(208, 207, 207);
+    line-height: 20px;
+}
+
+.offre .container .profil
+{
+    display: flex;
+    margin-top: 3vw;
+}
+
+.offre .container .profil .section {
+    width: 30%;
+    margin: 1%;
+    background-color: white;
+    padding: 1vw;
+    border-radius: 10px;
+    position: relative;
+    height: 25vh;
+}
+
+.offre .container .profil .section h1
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.offre .container .profil .section .postule {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    background-color: transparent; /* optionnel, pour la lisibilité */
+    margin-top: 2vw;
+}
+
+.offre .container .profil .section .postule .candidature
+{
+    padding: 5px;
+    background-color: rgb(4, 37, 75);
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+}
