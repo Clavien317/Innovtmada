@@ -3,7 +3,7 @@ import React from 'react'
 function Service() {
   return (
     <>
-        <div className="service">
+        <div className="service" id='service'>
             <h2>Nos services</h2>
             <p className='p'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
