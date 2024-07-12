@@ -38,7 +38,6 @@
 
 .offre .container .profil
 {
-    display: flex;
     margin-top: 3vw;
 }
 
@@ -52,6 +51,8 @@
     height: 25vh;
     margin-bottom: 4vw;
     color: rgb(255, 255, 255);
+    position: relative;
+    display: inline-block;
 }
 
 .offre .container .profil .section h1
@@ -59,7 +60,6 @@
     font-weight: 600;
     font-size: 20px;
 }
-
 
 .offre .container .profil .section .postule {
     position: absolute;
@@ -73,11 +73,16 @@
     margin-top: 2vw;
 }
 
+.offre .container .profil .section p
+{
+    color: rgb(145, 145, 145);
+}
+
 .offre .container .profil .section .postule .candidature
 {
     padding: 5px;
-    background-color: rgb(13, 27, 43);
-    color: white;
+    background-color: rgb(8, 7, 30);
+    color: rgb(134, 131, 131);
     border-radius: 10px;
     width: 30%;
 }
@@ -91,10 +96,17 @@
 
 .offre .container .profil .section .postule .detail
 {
-    border: 1px solid blue;
+    border: 1px solid rgb(6, 6, 136);
     padding: 5px;
     border-radius: 10px;
     width: 40%;
+    color: rgb(134, 131, 131);
+}
+
+.offre .container .profil .section .postule .detail:hover
+{
+    background-color: beige;
+    color: rgb(24, 23, 23);
 }
 
 .equipe ul li img

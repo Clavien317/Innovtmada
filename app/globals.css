@@ -3,21 +3,18 @@
 @tailwind utilities;
 
 
+
 *
 {
   margin: 0;
   padding: 0;
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-family: 'Poppins', sans-serif;
 }
 
 .c1
 {
   display: flex;
-  background-color: rgb(12, 23, 34);
+  background-color: rgb(7, 32, 56);
 }
 
 header .container
@@ -29,6 +26,9 @@ header .container
   align-items: center;
   background-color: transparent;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(6, 34, 61);
+  position: fixed;
+  z-index: 1000;
 }
 
 header .container nav ul li
@@ -66,9 +66,14 @@ main .contenu-slide1
 
 .body
 {
-  background-color: rgb(15, 19, 33);
+  background-color: rgb(8, 48, 88);
 }
 
+
+.c1 .text1 , .images
+{
+  margin-top: 5vw;
+}
 
 /* contenu */
 
@@ -91,7 +96,7 @@ main .contenu-slide1
   padding: 0;
   margin-bottom: 2vw;
   font-size: 30px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 600;
 }
 
@@ -112,10 +117,11 @@ main .contenu-slide1
 .btn-2 button {
   margin: 10px;
   padding: 10px 20px;
-  background-color: azure;
+  background-color: rgb(255, 255, 255);
   margin-top: 2vw;
   margin-bottom: 5vw;
   border-radius: 20px;
+  color: black;
 }
 
 .btn-2 button:hover

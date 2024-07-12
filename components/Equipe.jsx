@@ -3,7 +3,7 @@ import React from 'react'
 function Equipe() {
   return (
     <>
-        <div className="equipe">
+        <div className="equipe" id='equipe'>
             <h1>Notre Equipes</h1>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
                 <figure>
@@ -13,10 +13,7 @@ function Equipe() {
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">NAMBININA Clavien</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div className="card-actions justify-end">
-                    {/* <button className="btn btn-primary">Contactez ?</button> */}
-                    </div>
+                    <p>Chaque ligne de code que tu écris est une pierre posée sur le chemin de l'innovation.</p>
                 </div>
             </div>
 
@@ -28,10 +25,7 @@ function Equipe() {
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">NAMBININA Clavien</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div className="card-actions justify-end">
-                    {/* <button className="btn btn-primary">Contactez ?</button> */}
-                    </div>
+                    <p>Chaque ligne de code que tu écris est une pierre posée sur le chemin de l'innovation.</p>
                 </div>
             </div>
 
@@ -43,10 +37,7 @@ function Equipe() {
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">NAMBININA Clavien</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div className="card-actions justify-end">
-                    {/* <button className="btn btn-primary">Contactez ?</button> */}
-                    </div>
+                    <p>Chaque ligne de code que tu écris est une pierre posée sur le chemin de l'innovation.</p>
                 </div>
             </div>
         </div>
