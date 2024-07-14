@@ -3,7 +3,9 @@ import React from 'react'
 function Equipe() {
   return (
     <>
-        <div className="equipe" id='equipe'>
+        <p id='equipe'></p>
+        <br />
+        <div className="equipe">
             <h1>Notre Equipes</h1>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
                 <figure>
