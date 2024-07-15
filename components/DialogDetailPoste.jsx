@@ -61,11 +61,11 @@ export default function CustomizedDialogs({ open, handleClose }) {
           ullamcorper nulla non metus auctor fringilla.
         </Typography>
       </DialogContent>
-      {/* <DialogActions>
+      <DialogActions>
         <Button autoFocus onClick={handleClose}>
-          Save changes
+          Postulez ?
         </Button>
-      </DialogActions> */}
+      </DialogActions>
     </BootstrapDialog>
   );
 }

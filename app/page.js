@@ -7,7 +7,7 @@ import Offres from '../components/Offres'
 import Professionnel from '../components/Professionnel'
 import Service from '../components/Service'
 import React from 'react'
-
+import  Carousels from '../components/Carousel'
 function page() {
   return (
       <>
@@ -22,7 +22,8 @@ function page() {
         <Service />
         <Offres />
 
-        <Equipe />
+        {/* <Equipe /> */}
+        <Carousels />
 
         <Footer />
 

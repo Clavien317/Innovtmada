@@ -1,7 +1,7 @@
 
 #equipe
 {
-    margin-bottom: 2vw;
+    margin-bottom: 8vw;
 }
 
 .equipe
@@ -32,8 +32,23 @@
     height: 20vh;
 }
 
-
 .equipe .card .card-body .card-title
 {
-    margin-left: 10%;
+    margin-left: 3%;
+}
+
+.carousel-end
+{
+    width: 96%;
+    margin-left: 1%;
+}
+
+.carousel-end .carousel-item
+{
+    margin: 1vw;
+}
+
+.carousel-end .carousel-item .card-body
+{
+    margin-top: 0.5vw;
 }
