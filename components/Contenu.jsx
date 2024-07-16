@@ -1,10 +1,23 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function Contenu() {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, 
+          easing: 'ease-in-out',
+        });
+      }, []);
+
   return (
     <div className='c1'>
         <div className="text1">
-            <div className="description">
+            <div className="description" data-aos="zoom-in">
                 <h2>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Eos, dolorem dolore voluptatum,
@@ -26,7 +39,7 @@ function Contenu() {
             </div>
         </div>
 
-        <div className="images">
+        <div className="images" data-aos="zoom-out">
             <img src="/Gérer-le-personnel.png" alt="" />
         </div>
     </div>

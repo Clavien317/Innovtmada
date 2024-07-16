@@ -6,6 +6,8 @@ function Equipe() {
         <p id='equipe'></p>
         <br />
         <div className="equipe">
+            <br />
+            <br />
             <h1>Notre Equipes</h1>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
                 <figure>

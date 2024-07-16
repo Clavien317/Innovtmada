@@ -1,7 +1,20 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
 import Image from 'next/image'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function NavBar() {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, 
+          easing: 'ease-in-out',
+        })
+      }, [])
+
   return (
     <>
         <header>
@@ -9,7 +22,7 @@ function NavBar() {
                 <div className="logo">
                     <Image src="/logo.webp" width={100} height={100} />
                 </div>
-                    <nav className="navbar-center hidden lg:flex">
+                    <nav className="navbar-center hidden lg:flex" data-aos="zoom-in">
                         <ul className="menu menu-horizontal px-1">
                             <li><a href="/">Accueil</a></li>
                             <li><a href="/#service">Nos service</a></li>

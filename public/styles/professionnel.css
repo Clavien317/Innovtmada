@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 0vw;
-    background-color: rgb(12, 23, 34);
+    background-color: rgb(3, 3, 134);
     height: 60vh;
 }
 
@@ -97,7 +97,7 @@
     text-align: center;
     width: 90%;
     margin-left: 5%;
-    background-color: rgb(12, 23, 34);
+    background-color: rgb(3, 3, 134);
     padding: 1vw;
     border-radius: 10px;
     margin-top: 5vw;
@@ -107,11 +107,12 @@
 {
     font-size: 30px;
     font-weight: 700;
+    color: white;
 }
 
 .service .p
 {
-    color: rgb(18, 106, 249);
+    color: rgb(142, 142, 142);
 }
 
 .service .develop
@@ -125,6 +126,7 @@
     margin-top: 5vw;
     border-radius: 10px;
     height: 45vh;
+    background-color: rgb(3, 22, 55);
 }
 
 .service .develop:hover

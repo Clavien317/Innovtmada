@@ -1,12 +1,22 @@
 
 "use client"
 
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import CustomizedDialogs from '../components/DialogDetailPoste';
 import FormDialog from "../components/FormPostuler"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Offres() {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, 
+          easing: 'ease-in-out',
+        });
+      }, [])
+
   const [open, setOpen] = useState(false);
   const [Ouvert, setOuvert] = useState(false);
 
@@ -30,15 +40,15 @@ function Offres() {
         <div className="container">
           <div className="txt">
             <br />
-            <h1>Nos offres disponibles actuellement</h1>
-            <p className="p2">
+            <h1 data-aos="zoom-in">Nos offres disponibles actuellement</h1>
+            <p className="p2" data-aos="zoom-in">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quibusdam nihil nam,
               doloremque deleniti molestiae maxime tempore, vero architecto tempora cumque ipsa
             </p>
           </div>
 
           <div className="profil">
-            <div className="section">
+            <div className="section" data-aos="zoom-in">
               <h1>Developpeur fullstack PHP/ReactJS </h1>
               <p>Lieu poste : En local</p>
               <p>Contrat : CDD</p>
@@ -49,7 +59,7 @@ function Offres() {
               </div>
             </div>
 
-            <div className="section">
+            <div className="section" data-aos="zoom-in">
               <h1>Developpeur fullstack Javascript </h1>
               <p>Lieu poste : En local</p>
               <p>Contrat : CDI</p>
@@ -60,7 +70,7 @@ function Offres() {
               </div>
             </div>
 
-            <div className="section">
+            <div className="section" data-aos="zoom-in">
               <h1>Developpeur Symfony </h1>
               <p>Lieu poste : En local</p>
               <p>Contrat : CDI</p>

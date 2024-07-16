@@ -4,20 +4,16 @@
 {
     width: 90%;
     margin-left: 5%;
-    background-color: rgb(10, 13, 28);
+    background-color: rgb(3, 3, 134);
     margin-top: 3vw;
     border-radius: 10px;
     margin-bottom: 2vw;
 }
 
-
-
 .offre .container
 {
     width: 90%;
     margin-left: 5%;
-    /* background-color: rgb(5, 24, 120); */
-
 }
 
 .offre .container .txt
@@ -48,21 +44,22 @@
 .offre .container .profil .section {
     width: 30%;
     margin: 1%;
-    background-color: rgb(11, 23, 49);
+    background-color: rgb(4, 17, 57);
     padding: 1vw;
     border-radius: 10px;
     position: relative;
     height: 25vh;
     margin-bottom: 4vw;
-    color: rgb(193, 187, 187);
     position: relative;
     display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .offre .container .profil .section h1
 {
     font-weight: 600;
     font-size: 20px;
+    color: rgb(227, 225, 225);
 }
 
 .offre .container .profil .section .postule {
