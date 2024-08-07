@@ -5,6 +5,13 @@
     margin-top: 2vw;
 }
 
+.dmd-stage
+{
+    background-color: rgb(10, 10, 42);
+    height: 100vh;
+}
+
+
 .stage
 {
     text-align: center;

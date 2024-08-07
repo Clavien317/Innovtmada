@@ -4,6 +4,7 @@ import NavBar from '../../../components/NavBar'
 function page() {
   return (
     <>
+        <div className='dmd-stage'>
         <NavBar />
         <br />
         <div className="stage">
@@ -62,6 +63,7 @@ function page() {
                     <button>Envoyer </button>
                 </div>
             </form>
+        </div>
         </div>
     </>
   )
